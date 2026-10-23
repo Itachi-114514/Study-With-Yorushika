@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#dce7df"><meta name="description" content="studywithyorushika，让喜欢的视频与音乐陪你专注。计时、待办、倒数日与学习记录，收进一处轻盈的功能菜单。"><title>studywithyorushika · 给专注，留一点空间</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="task-history.css"><link rel="stylesheet" href="countdown.css"><link rel="stylesheet" href="music-import.css"><link rel="stylesheet" href="data-transfer.css"></head>
+<body class="video-home">
+<div class="landscape" aria-hidden="true"></div>
+<video id="background-video" class="background-video" muted loop playsinline preload="metadata" aria-hidden="true" hidden></video>
+<div id="scene-clock" class="scene-clock" title="当前时间"></div>
+<h1 id="scene-title" class="scene-title">Study With Yorushika</h1>
+<p id="scene-focus" class="scene-focus" aria-live="polite" hidden></p>
+<div id="video-status" class="video-status" role="status" aria-live="polite" hidden></div>
+<button id="feature-toggle" class="glass feature-toggle" aria-expanded="false" aria-controls="feature-panel" aria-label="功能菜单" title="功能菜单"><i data-icon="grid"></i><span id="feature-running-dot" aria-label="计时进行中" hidden></span></button>
+<aside id="feature-panel" class="glass feature-panel" aria-labelledby="feature-heading" hidden>
+  <header class="feature-panel-header"><div class="feature-brand"><strong id="feature-heading">Study with Yorushika</strong><small>把专注，留给此刻。</small></div><button id="feature-close" class="icon-btn" aria-label="收起功能菜单" title="收起菜单"><i data-icon="x"></i></button></header>
+  <div class="feature-panel-meta"><span id="greeting">慢慢来就好。</span><span id="today-date"></span><span id="live-clock"></span></div>
+  <nav class="feature-nav" aria-label="自习功能">
+    <button data-panel-tab="timer" class="active" aria-pressed="true"><i data-icon="timer"></i>计时</button>
+    <button data-panel-tab="tasks" aria-pressed="false"><i data-icon="check-square"></i>待办</button>
+    <button data-panel-tab="countdown" aria-pressed="false"><i data-icon="calendar"></i>倒数日</button>
+    <button data-panel-tab="sounds" aria-pressed="false"><i data-icon="headphones"></i>环境音</button>
+    <button data-panel-tab="stats" aria-pressed="false"><i data-icon="chart"></i>记录</button>
+    <button data-panel-tab="scenes" aria-pressed="false"><i data-icon="image"></i>背景</button>
+    <button data-panel-tab="settings" aria-pressed="false"><i data-icon="sliders"></i>设置</button>
+    <button data-panel-tab="changelog" aria-pressed="false"><i data-icon="list"></i>更新日志</button>
+    <button data-panel-tab="help" aria-pressed="false"><i data-icon="keyboard"></i>帮助</button>
+  </nav>
+  <div class="feature-views">
+<section class="feature-view timer-card" data-panel-view="timer" aria-label="专注计时器">
+      <div class="card-top"><span class="section-label"><i data-icon="timer"></i>此刻 · 专注</span><button class="icon-btn subtle" data-dialog="settings" aria-label="计时设置"><i data-icon="ellipsis"></i></button></div>
+      <div class="segmented" role="group" aria-label="计时模式"><button class="selected" data-mode="focus">番茄专注</button><button data-mode="break">短暂休息</button><button data-mode="stopwatch">自由计时</button></div>
+      <div class="timer-area"><svg class="timer-ring" viewBox="0 0 300 300" aria-hidden="true"><circle class="ring-track" cx="150" cy="150" r="139"/><circle id="ring-progress" cx="150" cy="150" r="139"/></svg><div class="timer-core"><span class="timer-caption" id="timer-caption">心无旁骛，做好眼前的事</span><div id="timer-display" role="timer" aria-label="剩余时间">25<span>:</span>00</div><div class="session-dots" id="session-dots"><span class="current"></span><span></span><span></span><span></span><small>第 <b id="session-count">1</b> 轮专注</small></div></div></div>
+      <div class="timer-controls"><button class="icon-btn secondary" id="reset-timer" aria-label="重置计时" title="重置"><i data-icon="reset"></i></button><button class="start-btn" id="toggle-timer"><i data-icon="play"></i><span>开始专注</span></button><button class="icon-btn secondary" id="zen-toggle" aria-label="进入沉浸模式" title="沉浸模式"><i data-icon="focus"></i></button></div>
+      <div class="timer-bottom"><i data-icon="leaf"></i><span id="current-task">不必赶路，只需向前。</span><span class="shortcut"><kbd>Space</kbd> 开始 / 暂停</span></div>
+    </section>
+<section class="feature-view tasks-card" data-panel-view="tasks" hidden aria-label="待办与完成记录">
+  <div class="card-top"><span class="section-label"><i data-icon="check-square"></i>今日待办 <span class="count-badge" id="task-count">0</span></span><span class="tiny-label" id="task-progress">慢慢完成，也很好</span></div>
+  <h2>把想做的，一件件完成。</h2>
+  <div class="task-lifetime-summary" aria-live="polite"><span>累计完成 <strong id="task-total-completed">0</strong> 件</span><span>今天完成 <strong id="task-today-completed">0</strong> 件</span></div>
+  <div class="task-view-tabs" role="group" aria-label="待办视图">
+    <button type="button" data-task-tab="active" aria-pressed="true" aria-controls="task-active-view">待办 <span id="task-active-count">0</span></button>
+    <button type="button" data-task-tab="history" aria-pressed="false" aria-controls="task-history-view"><i data-icon="check-square"></i>完成记录 <span id="task-history-count">0</span></button>
+    <button type="button" data-task-tab="trash" aria-pressed="false" aria-controls="task-trash-view"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18 M9 6V3h6v3 M5 6l1 15h12l1-15 M10 10v7 M14 10v7"/></svg>垃圾桶 <span id="task-trash-count">0</span></button>
+  </div>
+  <div id="task-active-view" data-task-view="active"><form id="task-form"><i data-icon="plus"></i><input id="task-input" maxlength="100" autocomplete="off" placeholder="添加一件想做的事…" aria-label="新待办"><button type="submit" aria-label="添加待办"><i data-icon="arrow-up"></i></button></form><div class="task-list" id="task-list"></div><div class="task-footer"><span><span class="small-dot"></span> 每一小步，都算数</span><button id="clear-completed">已完成移入垃圾桶</button></div></div>
+  <div id="task-history-view" data-task-view="history" hidden><p class="task-view-note">按首次完成的日期整理。每件事只累计一次，取消勾选或移入垃圾桶，足迹仍会保留。</p><div id="task-history-list" class="task-archive-list"></div></div>
+  <div id="task-trash-view" data-task-view="trash" hidden><p class="task-view-note">移除的待办按日期保留在这里；恢复时会带回原来的完成状态。</p><div id="task-trash-list" class="task-archive-list"></div></div>
+</section>
+<section class="feature-view sounds-card" data-panel-view="sounds" hidden id="sounds-section" aria-label="音乐与环境音"><div class="card-top"><span class="section-label"><i data-icon="headphones"></i>声音空间</span><button class="text-btn" data-dialog="sounds">自由混音 <i data-icon="arrow-right"></i></button></div><div class="sound-presets"><button class="sound-tile" data-sound="rain"><span class="sound-icon"><i data-icon="rain"></i></span><strong>窗边轻雨</strong><small>让思绪慢下来</small><span class="sound-indicator"></span></button><button class="sound-tile" data-sound="forest"><span class="sound-icon"><i data-icon="tree"></i></span><strong>林间鸟鸣</strong><small>清晨的一声问候</small><span class="sound-indicator"></span></button><button class="sound-tile" data-sound="waves"><span class="sound-icon"><i data-icon="waves"></i></span><strong>远岸海浪</strong><small>随潮汐轻轻呼吸</small><span class="sound-indicator"></span></button><button class="sound-tile" data-sound="cafe"><span class="sound-icon"><i data-icon="waves"></i></span><strong>溪畔流水</strong><small>听水流轻轻经过</small><span class="sound-indicator"></span></button></div>
+      <div class="sound-footer"><i data-icon="volume"></i><input type="range" id="master-volume" min="0" max="100" value="45" aria-label="环境音总音量"><span id="volume-label">45%</span><button class="icon-btn" id="mute-sounds" aria-label="暂停所有环境音" title="暂停所有环境音"><i data-icon="pause"></i></button></div></section>
+<section class="feature-view stats-card" data-panel-view="stats" hidden><div class="card-top"><span class="section-label"><i data-icon="chart"></i>今日专注</span><button class="text-btn" data-dialog="stats">查看足迹 <i data-icon="arrow-right"></i></button></div><div class="stats-content"><div class="stat-main"><span id="today-minutes">0</span><small>分钟</small><p>一点一滴，慢慢积累。</p></div><div class="mini-chart" id="week-chart" aria-label="最近七天专注分钟数"></div></div><div class="daily-goal"><div><span>每日目标 <b id="goal-value">120 分钟</b></span><span id="goal-percent">0%</span></div><div class="goal-track"><span id="goal-bar"></span></div></div></section>
+    <section class="feature-view countdown-view" data-panel-view="countdown" aria-label="倒数日" hidden><div id="countdown-root"></div></section>
+    <section class="feature-view changelog-view" data-panel-view="changelog" aria-labelledby="changelog-heading" hidden>
+      <div class="changelog-intro"><span class="section-label"><i data-icon="list"></i>更新日志</span><h2 id="changelog-heading">一点点，让专注更自在。</h2><p>记录这里的每一次小小改进。</p></div>
+        <aside class="changelog-disclaimer" role="note"><strong>免责声明</strong><p>本开源网站仅供学习使用，非盈利，所有资源都为 yorushika 粉丝提供，版权归 yorushika 所有，侵删。如有侵权请联系：<a href="mailto:zyan46321@gmail.com">zyan46321@gmail.com</a></p></aside>
+      <article class="update-entry"><header><time datetime="2026-10-22">2026.10.22</time><span class="update-badge">最新更新</span></header><h3>一眼看得见的专注。</h3><ul><li>首页标题下新增当前专注任务，在待办里点击任务文字即可设为「正在专注」。</li><li>顶部正中加入时钟，每秒刷新，界面闲置时与标题一同隐去。</li><li>左上角功能按钮改为纯图标，视野更安静。</li><li>更新日志置顶加入免责声明，说明本站仅供学习、非盈利。</li></ul></article>
+      <article class="update-entry"><header><time datetime="2026-10-22">2026.10.22</time><span class="update-badge">功能更新</span></header><h3>把期待和每一份完成，都记下来。</h3><ul><li>新增倒数日，可添加、编辑日期和备注，记录今天与未来的期待。</li><li>待办加入可恢复的垃圾桶，累计完成数与完成历史按日期归档。</li><li>设备上传的歌曲可从歌单单独删除。</li><li>背景仅保留视频，移除静态壁纸选项。</li><li>背景视频改为纯图预览，底栏简化为左侧全屏、右侧沉浸。</li><li>界面文字适当放大，新增记录备份导入，支持预览、去重合并与旧版备份。</li></ul></article>
+      <article class="update-entry">
+        <header><time datetime="2026-10-22">2026.10.22</time><span class="update-badge">界面更新</span></header>
+        <h3>更舒展，也更安静。</h3>
+        <ul><li>功能面板移至屏幕中央，加宽布局，并加入展开与收起的过渡动画。</li><li>功能菜单新增更新日志，方便查看近期变化。</li><li>首页加入 Study With Yorushika 标题，无操作 6 秒后隐藏界面，移动鼠标即可恢复。</li><li>环境音换为真实的轻雨、鸟鸣、海浪与溪流录音，支持自由混音。</li></ul>
+      </article>
+      <article class="update-entry">
+        <header><span>此前更新</span></header>
+        <h3>把喜欢的声音，留在身边。</h3>
+        <ul><li>左下角加入紧凑播放器，可展开或收起。</li><li>支持切换歌单，用一个按钮切换单曲循环、列表循环与随机播放。</li><li>全屏视频作为背景，自习功能统一收进左上角菜单。</li></ul>
+      </article>
+    </section>
+    <section id="modal" class="feature-view" data-panel-view="details" aria-labelledby="modal-title" hidden><header class="feature-detail-header"><button id="feature-back" class="icon-btn" aria-label="返回功能页" title="返回"><i data-icon="chevron"></i></button><h2 id="modal-title" tabindex="-1"></h2></header><div id="modal-content"></div></section>
+  </div>
+  <footer class="feature-panel-footer"><button class="text-btn" id="fullscreen"><i data-icon="expand"></i>全屏</button><button class="text-btn" id="dock-zen"><i data-icon="focus"></i>沉浸</button></footer>
+</aside>
+<section class="glass music-player compact-player" id="music-player" aria-label="音乐播放器">
+  <div id="music-playlist" class="glass music-playlist" aria-label="自习歌单" hidden>
+    <header class="music-playlist-header"><strong>自习歌单</strong><span id="music-playlist-count">8 首旋律</span></header>
+    <div id="music-playlist-tracks" class="music-playlist-tracks"></div>
+  </div>
+  <div class="music-player-bar">
+    <button id="music-cover" class="music-cover" aria-label="播放音乐" title="播放音乐"><img id="music-cover-image" alt="" hidden><span class="music-cover-icon" aria-hidden="true"><i data-icon="music"></i></span><span id="music-cover-play" aria-hidden="true"><i data-icon="play"></i></span></button>
+    <div class="music-player-main">
+      <div class="music-topline"><div class="music-meta"><strong id="music-title">正在读取歌单</strong><span id="music-artist">ヨルシカ</span></div><div class="music-transport"><button class="icon-btn" id="music-prev" aria-label="播放上一首" title="上一首"><i data-icon="skip-back"></i></button><button class="icon-btn" id="music-toggle" aria-label="播放音乐" title="播放音乐"><i data-icon="play"></i></button><button class="icon-btn" id="music-next" aria-label="播放下一首" title="下一首"><i data-icon="skip-forward"></i></button><button class="icon-btn music-list-button" id="music-list-open" aria-label="展开歌单" aria-expanded="false" aria-controls="music-playlist" title="展开歌单"><i data-icon="list"></i></button></div></div>
+      <div class="music-bottomline"><div class="music-timeline"><input type="range" id="music-progress" min="0" max="1000" value="0" step="1" aria-label="歌曲播放进度"><div class="music-times"><span id="music-current">0:00</span><span aria-hidden="true"> / </span><span id="music-duration">0:00</span></div></div><div class="music-volume-wrap"><button class="icon-btn" id="music-volume-toggle" aria-label="调节音乐音量" aria-expanded="false" aria-controls="music-volume-popover" title="音乐音量"><i data-icon="volume"></i></button><div id="music-volume-popover" class="glass" hidden><input type="range" id="music-volume" min="0" max="100" value="55" aria-label="音乐音量"><span id="music-volume-label">55%</span></div></div><button class="icon-btn music-mode" id="music-mode" aria-label="播放模式：列表循环，点击切换为单曲循环" title="列表循环 · 点击切换单曲循环"><i data-icon="repeat"></i></button></div>
+    </div>
+    <button class="music-side-handle" id="music-collapse" aria-label="收起播放器" aria-expanded="true" title="收起播放器"><i data-icon="chevron"></i></button>
+  </div>
+</section>
+<button class="glass zen-exit" id="zen-exit"><i data-icon="minimize"></i>显示控件 <kbd>Esc</kbd></button>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="app.js" defer></script><script src="media-player.js" defer></script><script src="countdown.js" defer></script><script src="data-transfer.js" defer></script><script src="idle-ui.js" defer></script>
+</body></html>

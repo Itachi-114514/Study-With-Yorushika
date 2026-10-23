@@ -1,0 +1,63 @@
+.video-home .countdown-heading{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:22px}
+.video-home .countdown-heading h2{margin:0 0 5px}
+.video-home .countdown-heading p{margin:0;font-size:13px}
+.video-home #countdown-root button{font:inherit;cursor:pointer}
+.video-home #countdown-root button:disabled,.video-home #countdown-root input:disabled,.video-home #countdown-root textarea:disabled{opacity:.5;cursor:default}
+.video-home #countdown-root button:focus-visible,.video-home #countdown-root input:focus-visible,.video-home #countdown-root textarea:focus-visible{outline:2px solid #789a71;outline-offset:3px}
+.video-home .countdown-add{display:flex;flex-shrink:0;align-items:center;justify-content:center;gap:6px;padding:9px 13px;border:1px solid #ffffff9c;border-radius:14px;color:#4b7046;background:#ffffff5c;font-size:13px!important;line-height:1.4;transition:background .2s,transform .2s}
+.video-home .countdown-add:hover{background:#ffffffa8;transform:translateY(-1px)}
+.video-home .countdown-add .icon{width:14px;height:14px}
+.video-home .countdown-form{margin:0 0 20px;padding:20px;border:1px solid #ffffff8a;border-radius:20px;background:#ffffff35}
+.video-home .countdown-form[hidden],.video-home .countdown-error[hidden],.video-home .countdown-undo[hidden]{display:none!important}
+.video-home .countdown-form-heading{margin-bottom:16px;font-size:14px;color:#506e49}
+.video-home .countdown-form-heading strong{font-weight:500}
+.video-home .countdown-fields{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:14px;margin-bottom:14px}
+.video-home .countdown-form label{display:block;min-width:0;color:#66825b;font-size:12px;line-height:1.7}
+.video-home .countdown-form input,.video-home .countdown-form textarea{display:block;box-sizing:border-box;width:100%;min-width:0;margin-top:6px;padding:10px 12px;border:1px solid #ffffff96;border-radius:12px;background:#ffffff5e;color:#3d5e40;font:inherit;font-size:14px;line-height:1.6;box-shadow:none;-webkit-appearance:none;appearance:none;color-scheme:light}
+.video-home .countdown-form input::placeholder,.video-home .countdown-form textarea::placeholder{color:#91a088}
+.video-home .countdown-form input[type=date]{min-height:42px}
+.video-home .countdown-form textarea{resize:vertical;min-height:66px;max-height:140px}
+.video-home .countdown-note-field>span{margin-left:5px;color:#96a28f;font-size:11px}
+.video-home .countdown-form-actions{display:flex;align-items:center;justify-content:flex-end;gap:10px;margin-top:16px}
+.video-home .countdown-form-actions button{padding:8px 15px;border:1px solid transparent;border-radius:12px;background:transparent;color:#78906d;font-size:13px!important;line-height:1.6}
+.video-home .countdown-form-actions #countdown-save{border-color:#66885c30;background:#6d8f6140;color:#3e653d}
+.video-home .countdown-form-actions button:hover{background:#ffffff70}
+.video-home .countdown-form-actions #countdown-save:hover{background:#6d8f6155}
+.video-home .countdown-form .countdown-error{margin:10px 0 0;color:#a15e4f;font-size:13px}
+.video-home .countdown-undo{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 15px;padding:10px 13px;border:1px solid #ffffff74;border-radius:12px;background:#ffffff35;color:#6a8260;font-size:12px;line-height:1.7}
+.video-home .countdown-undo>span{overflow-wrap:anywhere}
+.video-home .countdown-undo button{flex-shrink:0;padding:3px 5px;border:0;background:none;color:#3e6b41;text-decoration:underline;text-underline-offset:3px;font-size:12px!important}
+.video-home .countdown-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.video-home .countdown-card{min-width:0;padding:17px 18px 19px;border:1px solid #ffffff9c;border-radius:20px;background:linear-gradient(135deg,#ffffff58,#ffffff20);box-shadow:inset 0 1px 0 #ffffff30}
+.video-home .countdown-card-top{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.video-home .countdown-card time{color:#7d9274;font-size:11px;line-height:1.7;font-variant-numeric:tabular-nums}
+.video-home .countdown-card-actions{display:flex;align-items:center;gap:3px;margin-right:-5px}
+.video-home .countdown-card-actions button{display:grid;place-items:center;width:24px;height:24px;padding:0;border:0;border-radius:8px;color:#829677;background:transparent}
+.video-home .countdown-card-actions button:hover{background:#ffffff8c;color:#4c7048}
+.video-home .countdown-card-actions .icon{width:13px;height:13px}
+.video-home .countdown-card h3{margin:10px 0 15px;font-size:16px;font-weight:500;line-height:1.65;color:#42633e;overflow-wrap:anywhere}
+.video-home .countdown-distance{display:flex;align-items:baseline;gap:7px;min-height:55px;color:#719166;font-size:12px;line-height:1.4}
+.video-home .countdown-distance strong{font-size:43px;font-weight:300;line-height:1.2;letter-spacing:-.04em;font-variant-numeric:tabular-nums;color:#4c7447}
+.video-home .countdown-distance .countdown-today{align-self:center;font-size:25px;font-weight:400;letter-spacing:.025em}
+.video-home .countdown-card.is-today{border-color:#ffffffc4;background:linear-gradient(135deg,#ffffff87,#c8d9bc3a)}
+.video-home .countdown-card.is-past .countdown-distance strong{color:#82927a}
+.video-home .countdown-card .countdown-card-note{margin:12px 0 0;padding-top:10px;border-top:1px solid #75926816;color:#84927c;font-size:12px;line-height:1.8;white-space:pre-wrap;overflow-wrap:anywhere}
+.video-home .countdown-empty{grid-column:1/-1;padding:38px 18px 34px;text-align:center;border:1px dashed #8ca17c40;border-radius:20px;background:#ffffff18}
+.video-home .countdown-empty-symbol{display:grid;place-items:center;width:44px;height:44px;margin:0 auto 15px;border:1px solid #ffffffa6;border-radius:15px;background:#ffffff45;color:#91a57e}
+.video-home .countdown-empty-symbol .icon{width:22px;height:22px}
+.video-home .countdown-empty>strong{color:#69845f;font-size:15px;font-weight:450}
+.video-home .countdown-empty p{margin:7px 0 0;font-size:12px}
+.video-home #countdown-root>.countdown-local-note{margin:15px 0 0;font-size:11px;color:#8e9e84;text-align:center}
+@media(max-width:600px){
+  .video-home .countdown-heading{gap:12px;margin-bottom:18px}
+  .video-home .countdown-heading p{font-size:12px}
+  .video-home .countdown-add{padding:8px 10px;font-size:12px!important}
+  .video-home .countdown-form{padding:15px;border-radius:17px}
+  .video-home .countdown-fields{grid-template-columns:minmax(0,1fr);gap:12px}
+  .video-home .countdown-form input,.video-home .countdown-form textarea{font-size:16px}
+  .video-home .countdown-list{grid-template-columns:minmax(0,1fr);gap:12px}
+  .video-home .countdown-card{padding:16px 17px 18px;border-radius:18px}
+  .video-home .countdown-card h3{font-size:15px;margin-bottom:11px}
+  .video-home .countdown-distance strong{font-size:40px}
+}
+@media(prefers-reduced-motion:reduce){.video-home .countdown-add{transition:none}}
