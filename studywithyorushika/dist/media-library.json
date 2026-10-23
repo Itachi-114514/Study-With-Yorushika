@@ -1,0 +1,735 @@
+{
+  "schemaVersion": 1,
+  "project": "studywithyorushika",
+  "tracks": [
+    {
+      "id": "track-36f7f8e2b56f716f",
+      "title": "451",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-36f7f8e2b56f716f.mp3",
+      "bytes": 6693749,
+      "duration": 167.02
+    },
+    {
+      "id": "track-b0a10473061ece40",
+      "title": "八月、某、月明かり",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-b0a10473061ece40.mp3",
+      "bytes": 5411886,
+      "duration": 135.02
+    },
+    {
+      "id": "track-f15d109a628f0c5b",
+      "title": "爆弾魔",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-f15d109a628f0c5b.mp3",
+      "bytes": 7409678,
+      "duration": 184.92
+    },
+    {
+      "id": "track-daba03cc45e2c3f7",
+      "title": "歩く",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-daba03cc45e2c3f7.mp3",
+      "bytes": 7141556,
+      "duration": 178.22
+    },
+    {
+      "id": "track-d01351b7fedea773",
+      "title": "春泥棒",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-d01351b7fedea773.mp3",
+      "bytes": 7158770,
+      "duration": 178.97
+    },
+    {
+      "id": "track-6443e077915ae810",
+      "title": "春ひさぎ",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-6443e077915ae810.mp3",
+      "bytes": 6444880,
+      "duration": 160.81
+    },
+    {
+      "id": "track-70c5bc535254d976",
+      "title": "盗作",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-70c5bc535254d976.mp3",
+      "bytes": 5951900,
+      "duration": 148.5
+    },
+    {
+      "id": "track-bc640bb9f55b2a02",
+      "title": "第一夜",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-bc640bb9f55b2a02.mp3",
+      "bytes": 7405836,
+      "duration": 184.81
+    },
+    {
+      "id": "track-b9c4a6143635e094",
+      "title": "冬眠",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-b9c4a6143635e094.mp3",
+      "bytes": 5607878,
+      "duration": 139.9
+    },
+    {
+      "id": "track-4999d2a588ac7a2c",
+      "title": "都落ち",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-4999d2a588ac7a2c.mp3",
+      "bytes": 5976887,
+      "duration": 149.12
+    },
+    {
+      "id": "track-85353f7b56d1e191",
+      "title": "風を食む",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-85353f7b56d1e191.mp3",
+      "bytes": 6352628,
+      "duration": 158.51
+    },
+    {
+      "id": "track-3f981e34e02baeb6",
+      "title": "負け犬にアンコールはいらない",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-3f981e34e02baeb6.mp3",
+      "bytes": 6524652,
+      "duration": 162.82
+    },
+    {
+      "id": "track-488bd6bbf554d2cc",
+      "title": "花人局",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-488bd6bbf554d2cc.mp3",
+      "bytes": 5583878,
+      "duration": 139.31
+    },
+    {
+      "id": "track-b5938b4e44b2afe2",
+      "title": "花に亡霊",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-b5938b4e44b2afe2.mp3",
+      "bytes": 5030450,
+      "duration": 125.76
+    },
+    {
+      "id": "track-90af49faf57140d4",
+      "title": "花も騒めく",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-90af49faf57140d4.mp3",
+      "bytes": 6340166,
+      "duration": 158.21
+    },
+    {
+      "id": "track-5c73e659fad3d115",
+      "title": "火星人",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-5c73e659fad3d115.mp3",
+      "bytes": 6361265,
+      "duration": 158.72
+    },
+    {
+      "id": "track-99f28f1414f29508",
+      "title": "火葬",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-99f28f1414f29508.mp3",
+      "bytes": 5668415,
+      "duration": 141.42000000000002
+    },
+    {
+      "id": "track-6da1a0c6291aaafd",
+      "title": "藍二乗",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-6da1a0c6291aaafd.mp3",
+      "bytes": 6352624,
+      "duration": 158.51
+    },
+    {
+      "id": "track-22ab42217adc750a",
+      "title": "老人と海",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-22ab42217adc750a.mp3",
+      "bytes": 6412230,
+      "duration": 160
+    },
+    {
+      "id": "track-dc1f39a4482748d5",
+      "title": "六月は雨上がりの街を書く",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-dc1f39a4482748d5.mp3",
+      "bytes": 6184542,
+      "duration": 154.3
+    },
+    {
+      "id": "track-7f8539188d6f5110",
+      "title": "魔性",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-7f8539188d6f5110.mp3",
+      "bytes": 5403196,
+      "duration": 134.81
+    },
+    {
+      "id": "track-3c8db37ebc0178ae",
+      "title": "千鳥",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-3c8db37ebc0178ae.mp3",
+      "bytes": 7770028,
+      "duration": 193.92
+    },
+    {
+      "id": "track-1b06697910a359a2",
+      "title": "茜",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-1b06697910a359a2.mp3",
+      "bytes": 6753331,
+      "duration": 168.51
+    },
+    {
+      "id": "track-8e6d68d4f6cc4b16",
+      "title": "強盗と花束",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-8e6d68d4f6cc4b16.mp3",
+      "bytes": 6112418,
+      "duration": 152.51
+    },
+    {
+      "id": "track-ce38c5795196f7a9",
+      "title": "晴る",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-ce38c5795196f7a9.mp3",
+      "bytes": 6977234,
+      "duration": 174.1
+    },
+    {
+      "id": "track-a02b131b5af10965",
+      "title": "神様のダンス",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-a02b131b5af10965.mp3",
+      "bytes": 7085845,
+      "duration": 176.81
+    },
+    {
+      "id": "track-2abb10c15cd75849",
+      "title": "声",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-2abb10c15cd75849.mp3",
+      "bytes": 7361616,
+      "duration": 183.7
+    },
+    {
+      "id": "track-2dc9686be324ce30",
+      "title": "詩書きとコーヒー",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-2dc9686be324ce30.mp3",
+      "bytes": 6592886,
+      "duration": 164.5
+    },
+    {
+      "id": "track-b0bce3a54e6aece9",
+      "title": "思想犯",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-b0bce3a54e6aece9.mp3",
+      "bytes": 6293047,
+      "duration": 157.01
+    },
+    {
+      "id": "track-033a786a9c502424",
+      "title": "太陽",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-033a786a9c502424.mp3",
+      "bytes": 6164258,
+      "duration": 153.81
+    },
+    {
+      "id": "track-1335b097b2bf343f",
+      "title": "逃亡",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-1335b097b2bf343f.mp3",
+      "bytes": 5992252,
+      "duration": 149.5
+    },
+    {
+      "id": "track-0d25d26d799c3de6",
+      "title": "五月は花緑青の窓辺から",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-0d25d26d799c3de6.mp3",
+      "bytes": 5936579,
+      "duration": 148.12
+    },
+    {
+      "id": "track-350603bd71e2780d",
+      "title": "夕凪、某、花惑い",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-350603bd71e2780d.mp3",
+      "bytes": 5768417,
+      "duration": 143.91
+    },
+    {
+      "id": "track-eae2460ed08791db",
+      "title": "夏の肖像",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-eae2460ed08791db.mp3",
+      "bytes": 6184472,
+      "duration": 154.3
+    },
+    {
+      "id": "track-ed899f79b295d6db",
+      "title": "斜陽",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-ed899f79b295d6db.mp3",
+      "bytes": 5028530,
+      "duration": 125.71
+    },
+    {
+      "id": "track-4f1e39e6ba82ddc0",
+      "title": "心に穴が空いた",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-4f1e39e6ba82ddc0.mp3",
+      "bytes": 6008621,
+      "duration": 149.91
+    },
+    {
+      "id": "track-6d9635d0e1509651",
+      "title": "修羅",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-6d9635d0e1509651.mp3",
+      "bytes": 6404502,
+      "duration": 159.81
+    },
+    {
+      "id": "track-11dc8068155bafb4",
+      "title": "嘘月",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-11dc8068155bafb4.mp3",
+      "bytes": 6877302,
+      "duration": 171.61
+    },
+    {
+      "id": "track-bb88a09b86711601",
+      "title": "靴の花火",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-bb88a09b86711601.mp3",
+      "bytes": 6364164,
+      "duration": 158.81
+    },
+    {
+      "id": "track-c550bb4dc9b65678",
+      "title": "雪国",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-c550bb4dc9b65678.mp3",
+      "bytes": 6328600,
+      "duration": 157.91
+    },
+    {
+      "id": "track-caa34b05e725424c",
+      "title": "言って",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-caa34b05e725424c.mp3",
+      "bytes": 6509810,
+      "duration": 162.74
+    },
+    {
+      "id": "track-2c77bf82869df003",
+      "title": "夜紛い",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-2c77bf82869df003.mp3",
+      "bytes": 7557656,
+      "duration": 188.61
+    },
+    {
+      "id": "track-3f29c41cca5e504e",
+      "title": "夜行",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-3f29c41cca5e504e.mp3",
+      "bytes": 7197310,
+      "duration": 179.61
+    },
+    {
+      "id": "track-8e3f4128b170fd87",
+      "title": "踊ろうぜ",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-8e3f4128b170fd87.mp3",
+      "bytes": 6208482,
+      "duration": 154.9
+    },
+    {
+      "id": "track-47a96fedaf2b91af",
+      "title": "憂、燦々",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-47a96fedaf2b91af.mp3",
+      "bytes": 8014124,
+      "duration": 200
+    },
+    {
+      "id": "track-bafe2d0ddd1c5b01",
+      "title": "憂一乗",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-bafe2d0ddd1c5b01.mp3",
+      "bytes": 7237668,
+      "duration": 180.61
+    },
+    {
+      "id": "track-161bb2fb27fdc329",
+      "title": "又三郎",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-161bb2fb27fdc329.mp3",
+      "bytes": 6504454,
+      "duration": 162.3
+    },
+    {
+      "id": "track-c6abcf5017a1bfb5",
+      "title": "雨晴るる",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-c6abcf5017a1bfb5.mp3",
+      "bytes": 6688968,
+      "duration": 166.91
+    },
+    {
+      "id": "track-a33607e20db654a4",
+      "title": "雨とカプチーノ",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-a33607e20db654a4.mp3",
+      "bytes": 5916530,
+      "duration": 147.91
+    },
+    {
+      "id": "track-96f69ae3daeb6cc7",
+      "title": "月光浴",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-96f69ae3daeb6cc7.mp3",
+      "bytes": 8202466,
+      "duration": 204.71
+    },
+    {
+      "id": "track-472d1a0301649572",
+      "title": "月に吠える",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-472d1a0301649572.mp3",
+      "bytes": 5524291,
+      "duration": 137.81
+    },
+    {
+      "id": "track-dd4e6cc059ae8234",
+      "title": "雲と幽霊",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-dd4e6cc059ae8234.mp3",
+      "bytes": 6772578,
+      "duration": 169
+    },
+    {
+      "id": "track-e186d3ab89c50920",
+      "title": "雲になる",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-e186d3ab89c50920.mp3",
+      "bytes": 5972092,
+      "duration": 149.01
+    },
+    {
+      "id": "track-65ff37fe2473693a",
+      "title": "櫂",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-65ff37fe2473693a.mp3",
+      "bytes": 7313570,
+      "duration": 182.51
+    },
+    {
+      "id": "track-9359d86d3472dc19",
+      "title": "昼鳶",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-9359d86d3472dc19.mp3",
+      "bytes": 6404506,
+      "duration": 159.81
+    },
+    {
+      "id": "track-5619278066f524ab",
+      "title": "準透明少年",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-5619278066f524ab.mp3",
+      "bytes": 6693787,
+      "duration": 167.02
+    },
+    {
+      "id": "track-7fb59b83c2153990",
+      "title": "啄木鳥",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-7fb59b83c2153990.mp3",
+      "bytes": 6740850,
+      "duration": 168.21
+    },
+    {
+      "id": "track-169e141abb613f23",
+      "title": "左右盲",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-169e141abb613f23.mp3",
+      "bytes": 7013783,
+      "duration": 175.02
+    },
+    {
+      "id": "track-33fd2ed79b306566",
+      "title": "DARMA GRAND PRIX",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-33fd2ed79b306566.mp3",
+      "bytes": 6781248,
+      "duration": 169.22
+    },
+    {
+      "id": "track-8b5863518bd9b4d2",
+      "title": "Make up Shadow",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-8b5863518bd9b4d2.mp3",
+      "bytes": 6400700,
+      "duration": 159.7
+    },
+    {
+      "id": "track-d5c61a911b2b8fa8",
+      "title": "あの夏に咲け",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-d5c61a911b2b8fa8.mp3",
+      "bytes": 7178113,
+      "duration": 179.11
+    },
+    {
+      "id": "track-2e176c5ec3767f33",
+      "title": "あぶく",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-2e176c5ec3767f33.mp3",
+      "bytes": 6336278,
+      "duration": 158.1
+    },
+    {
+      "id": "track-984be4c0983a9f15",
+      "title": "アポリア",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-984be4c0983a9f15.mp3",
+      "bytes": 7305889,
+      "duration": 182.31
+    },
+    {
+      "id": "track-cc2863a6f5868076",
+      "title": "アルジャーノン",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-cc2863a6f5868076.mp3",
+      "bytes": 6012446,
+      "duration": 150.02
+    },
+    {
+      "id": "track-af7deef565a5b83c",
+      "title": "いさな",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-af7deef565a5b83c.mp3",
+      "bytes": 6748528,
+      "duration": 168.41
+    },
+    {
+      "id": "track-ce8e48816aeee7a3",
+      "title": "うめき",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-ce8e48816aeee7a3.mp3",
+      "bytes": 6924381,
+      "duration": 172.8
+    },
+    {
+      "id": "track-3de5ad52574ecab4",
+      "title": "エイミー",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-3de5ad52574ecab4.mp3",
+      "bytes": 6347805,
+      "duration": 158.4
+    },
+    {
+      "id": "track-6521506c424f7095",
+      "title": "エルマ",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-6521506c424f7095.mp3",
+      "bytes": 5744323,
+      "duration": 143.32
+    },
+    {
+      "id": "track-df2a7bccf7b6cdab",
+      "title": "カトレア",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-df2a7bccf7b6cdab.mp3",
+      "bytes": 5851960,
+      "duration": 146.01
+    },
+    {
+      "id": "track-d975e11af47c3cb6",
+      "title": "さよならモルテン",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-d975e11af47c3cb6.mp3",
+      "bytes": 5925013,
+      "duration": 147.82
+    },
+    {
+      "id": "track-0a1466348d8435dd",
+      "title": "だから僕は音楽を辞めた",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-0a1466348d8435dd.mp3",
+      "bytes": 5193650,
+      "duration": 129.84
+    },
+    {
+      "id": "track-edcd6b7b8e73905a",
+      "title": "ただ君に晴れ",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-edcd6b7b8e73905a.mp3",
+      "bytes": 5495090,
+      "duration": 137.38
+    },
+    {
+      "id": "track-345dbbed4310ca28",
+      "title": "チノカテ",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-345dbbed4310ca28.mp3",
+      "bytes": 5951902,
+      "duration": 148.5
+    },
+    {
+      "id": "track-bae37663988f5ab9",
+      "title": "テレパス",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-bae37663988f5ab9.mp3",
+      "bytes": 5528117,
+      "duration": 137.92000000000002
+    },
+    {
+      "id": "track-404d58a4408be3ac",
+      "title": "ノーチラス",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-404d58a4408be3ac.mp3",
+      "bytes": 7125234,
+      "duration": 177.81
+    },
+    {
+      "id": "track-76acf286164b4256",
+      "title": "パドドゥ",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-76acf286164b4256.mp3",
+      "bytes": 7040674,
+      "duration": 175.7
+    },
+    {
+      "id": "track-6498412c709f5943",
+      "title": "パレード",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-6498412c709f5943.mp3",
+      "bytes": 6592856,
+      "duration": 164.5
+    },
+    {
+      "id": "track-d109acb5e8812d5f",
+      "title": "ヒッチコック　希区柯克",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-d109acb5e8812d5f.mp3",
+      "bytes": 4793330,
+      "duration": 119.83
+    },
+    {
+      "id": "track-32d5021d4b18ece3",
+      "title": "ブレーメン",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-32d5021d4b18ece3.mp3",
+      "bytes": 6176763,
+      "duration": 154.11
+    },
+    {
+      "id": "track-96b753d21afa7e65",
+      "title": "プレイシック",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-96b753d21afa7e65.mp3",
+      "bytes": 6805238,
+      "duration": 169.81
+    },
+    {
+      "id": "track-a592974b51ddef3e",
+      "title": "へび",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-a592974b51ddef3e.mp3",
+      "bytes": 6933030,
+      "duration": 173.01
+    },
+    {
+      "id": "track-10f19e270d19a114",
+      "title": "ポスト春",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-10f19e270d19a114.mp3",
+      "bytes": 6164278,
+      "duration": 153.81
+    },
+    {
+      "id": "track-553da3dab1536018",
+      "title": "ルバート",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-553da3dab1536018.mp3",
+      "bytes": 6729313,
+      "duration": 167.91
+    },
+    {
+      "id": "track-745f5b6166aeac19",
+      "title": "レプリカント",
+      "artist": "ヨルシカ",
+      "src": "media/music/track-745f5b6166aeac19.mp3",
+      "bytes": 7116589,
+      "duration": 177.6
+    }
+  ],
+  "videos": [
+    {
+      "id": "video-ef1b4c795b7f860a",
+      "title": "1",
+      "src": "media/video/video-ef1b4c795b7f860a-avc.mp4",
+      "poster": "media/video/video-ef1b4c795b7f860a.jpg",
+      "bytes": 9771973,
+      "originalBytes": 30930865,
+      "duration": 74.17,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "video-226cee1d2e3c350f",
+      "title": "2",
+      "src": "media/video/video-226cee1d2e3c350f.mp4",
+      "poster": "media/video/video-226cee1d2e3c350f.jpg",
+      "bytes": 940100,
+      "originalBytes": 941008,
+      "duration": 1.75,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "video-68c02683814c6ac5",
+      "title": "3",
+      "src": "media/video/video-68c02683814c6ac5.mp4",
+      "poster": "media/video/video-68c02683814c6ac5.jpg",
+      "bytes": 15978754,
+      "originalBytes": 15979034,
+      "duration": 10.99,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "video-5c97211a53a19760",
+      "title": "4",
+      "src": "media/video/video-5c97211a53a19760.mp4",
+      "poster": "media/video/video-5c97211a53a19760.jpg",
+      "bytes": 7204285,
+      "originalBytes": 7205193,
+      "duration": 5.95,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "video-ab80b8c891a03b68",
+      "title": "5",
+      "src": "media/video/video-ab80b8c891a03b68.mp4",
+      "poster": "media/video/video-ab80b8c891a03b68.jpg",
+      "bytes": 21309289,
+      "originalBytes": 21306881,
+      "duration": 15.02,
+      "width": 1280,
+      "height": 720
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"name":"studywithyorushika","version":"1.1.0","private":true,"type":"module","scripts":{"dev":"node studywithyorushika/server.mjs","start":"node studywithyorushika/server.mjs","prepare:media":"node studywithyorushika/scripts/prepare-media.mjs","check":"npm --prefix studywithyorushika run check"}}

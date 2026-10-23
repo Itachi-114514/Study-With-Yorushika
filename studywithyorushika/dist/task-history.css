@@ -1,0 +1,38 @@
+/* Local task history and recoverable trash share the existing glass panel. */
+.tasks-card .task-lifetime-summary{display:flex;align-items:center;gap:22px;margin:-2px 0 18px;color:#718579;font-size:13px}
+.tasks-card .task-lifetime-summary strong{font-size:22px;font-weight:450;color:#38614e;font-variant-numeric:tabular-nums;margin:0 4px}
+.tasks-card .task-view-tabs{display:flex;gap:4px;padding:4px;border:1px solid #ffffff65;background:#64806f0d;border-radius:14px;margin:0 0 17px}
+.tasks-card .task-view-tabs button{display:flex;flex:1;align-items:center;justify-content:center;gap:6px;min-width:0;padding:10px 6px;border-radius:10px;color:#6d8173;font-size:13px;white-space:nowrap}
+.tasks-card .task-view-tabs button[aria-pressed=true]{background:#ffffffa6;box-shadow:0 2px 9px #3a5b4610;color:#385e4b}
+.tasks-card .task-view-tabs button:hover{background:#ffffff65}
+.tasks-card .task-view-tabs .icon{width:14px;height:14px}
+.tasks-card .task-view-tabs button>span{font-size:11px;padding:2px 5px;min-width:17px;border-radius:5px;background:#6e8c7410;font-variant-numeric:tabular-nums}
+.tasks-card [data-task-view][hidden]{display:none!important}
+.tasks-card .task-view-note{font-size:12px;line-height:1.9;color:#778979;margin:0 0 16px}
+.tasks-card .task-archive-list{min-height:155px}
+.tasks-card .task-date-group{margin:0 0 18px}
+.tasks-card .task-date-group:last-child{margin-bottom:0}
+.tasks-card .task-date-heading{display:flex;align-items:center;justify-content:space-between;padding:0 2px 8px;border-bottom:1px solid #68837114;gap:14px}
+.tasks-card .task-date-heading h3{margin:0;font-size:12px;font-weight:550;color:#617c67}
+.tasks-card .task-date-heading>span{font-size:11px;color:#879887;white-space:nowrap}
+.tasks-card .task-archive-row{display:flex;align-items:center;gap:11px;padding:12px 2px;border-bottom:1px solid #6678550b}
+.tasks-card .task-archive-row:last-child{border-bottom:0}
+.tasks-card .task-history-check,.tasks-card .task-trash-symbol{display:grid;place-items:center;flex:none;width:29px;height:29px;border-radius:9px;color:#709077;background:#6c8d7110}
+.tasks-card .task-history-check .icon,.tasks-card .task-trash-symbol .icon{width:14px;height:14px}
+.tasks-card .task-archive-copy{flex:1;min-width:0;line-height:1.6;font-size:13px;overflow-wrap:anywhere}
+.tasks-card .task-archive-copy>span{display:block}
+.tasks-card .task-archive-copy>small{display:block;margin-top:3px;color:#849184;font-size:11px}
+.tasks-card .task-restore{display:flex;align-items:center;gap:5px;padding:8px 10px;border-radius:9px;background:#ffffff65;border:1px solid #ffffff7a;color:#62816a;font-size:12px;flex:none}
+.tasks-card .task-restore:hover{background:#ffffffaa}
+.tasks-card .task-restore .icon{width:12px;height:12px}
+.tasks-card .task-delete{width:28px;height:28px;border-radius:8px;opacity:.48}
+.tasks-card .task-delete:hover,.tasks-card .task-delete:focus-visible{opacity:1;background:#ffffff80}
+.tasks-card .task-delete .icon{width:14px;height:14px}
+.video-home .tasks-card .task-list{max-height:none}
+@media(max-width:480px){.tasks-card .task-view-tabs{gap:2px}.tasks-card .task-view-tabs button{gap:4px;font-size:12px;padding:10px 3px}.tasks-card .task-view-tabs .icon{width:12px;height:12px}.tasks-card .task-view-tabs button>span{padding:2px 4px}.tasks-card .task-lifetime-summary{gap:17px;font-size:12px}.tasks-card .task-lifetime-summary strong{font-size:21px}.tasks-card .task-footer{gap:10px}.tasks-card .task-footer button{font-size:11px;white-space:nowrap}.tasks-card .task-restore{padding:8px}.tasks-card .task-archive-row{gap:8px}}
+
+/* Keep every task label and count readable on narrow phones. */
+@media(max-width:370px){
+  .tasks-card .task-view-tabs .icon{display:none}
+  .tasks-card .task-view-tabs button{gap:3px}
+}
